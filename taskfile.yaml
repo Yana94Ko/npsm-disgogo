@@ -1,0 +1,7 @@
+version: "3"
+
+tasks:
+  discord:
+    dotenv: [".env"]
+    cmds:
+      - go run ./cmd/main.go
